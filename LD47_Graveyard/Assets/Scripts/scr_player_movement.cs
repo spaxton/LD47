@@ -10,6 +10,7 @@ public class scr_player_movement : MonoBehaviour
     public float walkSpeed = 12f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
+    public float doubleJumpHeight = 2f;
 
     public float turnSmoothing = 0.1f;
     float turnSmoothVelocity;
@@ -18,8 +19,11 @@ public class scr_player_movement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    public GameObject ghostModel;
+
     Vector3 vel;
     bool onGround;
+    bool doubleJumped = false;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +36,11 @@ public class scr_player_movement : MonoBehaviour
     {
         // are you on the ground? Act like it
         onGround = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+        if (onGround) {
+            doubleJumped = false;
+            ghostModel.GetComponent<scr_animController>().doubleJump = false;
+        }
 
         if(onGround && vel.y <0)
         {
@@ -55,9 +64,18 @@ public class scr_player_movement : MonoBehaviour
             controller.Move(moveDir.normalized * walkSpeed * Time.deltaTime);
         }
 
+        // regular jumps
         if(Input.GetButtonDown("Jump") && onGround)
         {
             vel.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        }
+
+        // double jumps
+        if (Input.GetButtonDown("Jump") && !onGround && !doubleJumped)
+        {
+            vel.y = Mathf.Sqrt(doubleJumpHeight * -2f * gravity);
+            ghostModel.GetComponent<scr_animController>().doubleJump = true;
+            doubleJumped = true;
         }
 
         // under pressure (gravitational pressure, that is)
