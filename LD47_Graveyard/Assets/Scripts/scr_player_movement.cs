@@ -64,12 +64,19 @@ public class scr_player_movement : MonoBehaviour
 
             Vector3 moveDir = Quaternion.Euler(0f, tarAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * walkSpeed * Time.deltaTime);
+
+            // Put floating sound here!
+        } else
+        {
+            // put standing (not moving) sound here!
         }
 
         // regular jumps
         if(Input.GetButtonDown("Jump") && onGround)
         {
             vel.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+
+            // put regular jump sound here!
         }
 
         // double jumps
@@ -78,6 +85,8 @@ public class scr_player_movement : MonoBehaviour
             vel.y = Mathf.Sqrt(doubleJumpHeight * -2f * gravity);
             ghostModel.GetComponent<scr_animController>().doubleJump = true;
             doubleJumped = true;
+
+            // put double jump sound here!
         }
 
         // under pressure (gravitational pressure, that is)

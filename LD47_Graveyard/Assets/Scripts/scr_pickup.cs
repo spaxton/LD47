@@ -9,6 +9,9 @@ public class scr_pickup : MonoBehaviour
     public GameObject player;
     public float pickupDist = 1f;
     private float playerDist;
+    public GameObject end_loc;
+    private float doneDist;
+    private bool done = false;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +34,7 @@ public class scr_pickup : MonoBehaviour
             {
                 // check how far away the player is before getting picked up
                 playerDist = Vector3.Distance(this.transform.position, player.transform.position);
-                if((playerDist <= pickupDist) && (player.GetComponent<scr_player_movement>().carrying == false))
+                if((playerDist <= pickupDist) && (player.GetComponent<scr_player_movement>().carrying == false) && (done == false))
                 {
                     pickup();
                 }
@@ -42,7 +45,16 @@ public class scr_pickup : MonoBehaviour
         if (pickedUp == true)
         {
             this.transform.position = handle.position;
-
+        } else
+        {
+            doneDist = Vector3.Distance(this.transform.position, end_loc.transform.position);
+            if (doneDist <= pickupDist)
+            {
+                this.transform.position = end_loc.transform.position;
+                GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+                this.transform.rotation = end_loc.transform.rotation;
+                done = true;
+            }
         }
         
     }
@@ -57,6 +69,8 @@ public class scr_pickup : MonoBehaviour
         this.transform.position = handle.position;
         pickedUp = true;
         player.GetComponent<scr_player_movement>().carrying = true;
+
+        // put pickup sound here!
     }
 
     void drop()
@@ -67,5 +81,7 @@ public class scr_pickup : MonoBehaviour
         GetComponent<Rigidbody>().freezeRotation = false;
         pickedUp = false;
         player.GetComponent<scr_player_movement>().carrying = false;
+
+        // put dropoff sound here!
     }
 }
