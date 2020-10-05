@@ -19,6 +19,8 @@ public class scr_player_movement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    public bool carrying = false;
+
     public GameObject ghostModel;
 
     Vector3 vel;
