@@ -12,6 +12,7 @@ public class scr_pickup : MonoBehaviour
     public GameObject end_loc;
     private float doneDist;
     private bool done = false;
+    private bool scored = false;
 
     // Start is called before the first frame update
     void Start()
@@ -54,6 +55,10 @@ public class scr_pickup : MonoBehaviour
                 GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
                 this.transform.rotation = end_loc.transform.rotation;
                 done = true;
+                if( scored == false)
+                {
+                    scoreUp();
+                }
             }
         }
         
@@ -83,5 +88,11 @@ public class scr_pickup : MonoBehaviour
         player.GetComponent<scr_player_movement>().carrying = false;
 
         // put dropoff sound here!
+    }
+
+    void scoreUp()
+    {
+        player.GetComponent<scr_player_movement>().skullScore++;
+        scored = true;
     }
 }

@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     - scr_animController
     - scr_pickup
     - scr_player_movement
+    - scr_popup
     - scr_putdown
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
@@ -70,6 +71,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -136,91 +139,97 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11482}
     - Class: 114
-      Script: {instanceID: 11678}
+      Script: {instanceID: 11484}
     - Class: 114
-      Script: {instanceID: 11804}
+      Script: {instanceID: 11680}
     - Class: 114
-      Script: {instanceID: 11834}
+      Script: {instanceID: 11806}
     - Class: 114
       Script: {instanceID: 11836}
     - Class: 114
-      Script: {instanceID: 12042}
+      Script: {instanceID: 11838}
     - Class: 114
-      Script: {instanceID: 12084}
+      Script: {instanceID: 12044}
     - Class: 114
-      Script: {instanceID: 12280}
+      Script: {instanceID: 12086}
     - Class: 114
-      Script: {instanceID: 12626}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12676}
+      Script: {instanceID: 12628}
     - Class: 114
-      Script: {instanceID: 12692}
+      Script: {instanceID: 12678}
     - Class: 114
-      Script: {instanceID: 12762}
+      Script: {instanceID: 12694}
     - Class: 114
-      Script: {instanceID: 13034}
+      Script: {instanceID: 12764}
     - Class: 114
-      Script: {instanceID: 13274}
+      Script: {instanceID: 12892}
     - Class: 114
-      Script: {instanceID: 13332}
+      Script: {instanceID: 12996}
     - Class: 114
-      Script: {instanceID: 13352}
+      Script: {instanceID: 13038}
     - Class: 114
-      Script: {instanceID: 13404}
+      Script: {instanceID: 13278}
     - Class: 114
-      Script: {instanceID: 13492}
+      Script: {instanceID: 13336}
     - Class: 114
-      Script: {instanceID: 13534}
+      Script: {instanceID: 13356}
     - Class: 114
-      Script: {instanceID: 13690}
+      Script: {instanceID: 13408}
     - Class: 114
-      Script: {instanceID: 13886}
+      Script: {instanceID: 13496}
     - Class: 114
-      Script: {instanceID: 13914}
+      Script: {instanceID: 13538}
     - Class: 114
-      Script: {instanceID: 14306}
+      Script: {instanceID: 13694}
     - Class: 114
-      Script: {instanceID: 14380}
+      Script: {instanceID: 13916}
     - Class: 114
-      Script: {instanceID: 14404}
+      Script: {instanceID: 14308}
     - Class: 114
-      Script: {instanceID: 14520}
+      Script: {instanceID: 14382}
     - Class: 114
-      Script: {instanceID: 14558}
+      Script: {instanceID: 14406}
     - Class: 114
-      Script: {instanceID: 14592}
+      Script: {instanceID: 14522}
     - Class: 114
-      Script: {instanceID: 14600}
+      Script: {instanceID: 14560}
     - Class: 114
-      Script: {instanceID: 14740}
+      Script: {instanceID: 14594}
     - Class: 114
-      Script: {instanceID: 14980}
+      Script: {instanceID: 14602}
     - Class: 114
-      Script: {instanceID: 15056}
+      Script: {instanceID: 14742}
     - Class: 114
-      Script: {instanceID: 15076}
+      Script: {instanceID: 14982}
     - Class: 114
-      Script: {instanceID: 15350}
+      Script: {instanceID: 15058}
     - Class: 114
-      Script: {instanceID: 15536}
+      Script: {instanceID: 15078}
     - Class: 114
-      Script: {instanceID: 15590}
+      Script: {instanceID: 15352}
     - Class: 114
-      Script: {instanceID: 15812}
+      Script: {instanceID: 15538}
     - Class: 114
-      Script: {instanceID: 15832}
+      Script: {instanceID: 15592}
     - Class: 114
-      Script: {instanceID: 15838}
+      Script: {instanceID: 15814}
     - Class: 114
-      Script: {instanceID: 15842}
+      Script: {instanceID: 15834}
     - Class: 114
-      Script: {instanceID: 15914}
+      Script: {instanceID: 15840}
     - Class: 114
-      Script: {instanceID: 16052}
+      Script: {instanceID: 15844}
     - Class: 114
-      Script: {instanceID: 16060}
+      Script: {instanceID: 15882}
     - Class: 114
-      Script: {instanceID: 16066}
+      Script: {instanceID: 15916}
+    - Class: 114
+      Script: {instanceID: 16054}
+    - Class: 114
+      Script: {instanceID: 16062}
+    - Class: 114
+      Script: {instanceID: 16068}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -254,6 +263,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
@@ -610,6 +625,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
+      Hash: e86fa8df20f81a6bb379d11f96d3f72d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: scr_popup
+  - hash:
+      serializedVersion: 2
       Hash: 1cdde0c3d8008dfe81d27e4c955d4fe7
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -776,12 +797,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering
     className: VolumeProfile
-  - hash:
-      serializedVersion: 2
-      Hash: 5f1752ed2092162f016c19510c28a8b9
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
   - hash:
       serializedVersion: 2
       Hash: 8d35f16c5022311c6f4d9432be73bfcf
@@ -1018,7 +1033,7 @@ ScriptsOnlyBuild:
     className: StudioParameterTrigger
   - hash:
       serializedVersion: 2
-      Hash: ff5c6317e2dcdb13ce8db2e2aed84b2b
+      Hash: 68a2418046dba51bbb224010dc06ee26
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: scr_player_movement
@@ -1253,4 +1268,4 @@ ScriptsOnlyBuild:
   platform: 2
   scenePathNames:
   - Assets/Scenes/CemeteryLevel.unity
-  playerPath: C:/Users/sethpaxton/Desktop/Projects/LD47_disasterous/LD47/LD_47_MacOS.app
+  playerPath: C:/Users/sethpaxton/Desktop/Projects/LD47_disasterous/LD47/LD47_MacOS.app

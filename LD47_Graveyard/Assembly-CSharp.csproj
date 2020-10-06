@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\scr_animController.cs" />
      <Compile Include="Assets\Scripts\scr_pickup.cs" />
      <Compile Include="Assets\Scripts\scr_player_movement.cs" />
+     <Compile Include="Assets\Scripts\scr_popup.cs" />
      <Compile Include="Assets\Scripts\scr_putdown.cs" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
  <Reference Include="UnityEngine">

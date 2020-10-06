@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class scr_player_movement : MonoBehaviour
 {
@@ -22,6 +23,12 @@ public class scr_player_movement : MonoBehaviour
     public bool carrying = false;
 
     public GameObject ghostModel;
+    public int skullScore = 0;
+
+    public Canvas canvas;
+    public Text skullUI;
+    public GameObject PopupPrefab;
+    private bool ended = false;
 
     Vector3 vel;
     bool onGround;
@@ -30,7 +37,8 @@ public class scr_player_movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameObject pop = Instantiate(PopupPrefab, new Vector3(Screen.width / 2, Screen.height / 2, 0), new Quaternion(0, 0, 0, 0));
+        pop.transform.SetParent(canvas.transform, false);
     }
 
     // Update is called once per frame
@@ -93,5 +101,25 @@ public class scr_player_movement : MonoBehaviour
         vel.y += gravity * Time.deltaTime;
 
         controller.Move(vel * Time.deltaTime);
+
+        // exit strategy
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
+        // gotta stay up to date!
+        updateUI();
+    }
+
+    void updateUI()
+    {
+        skullUI.text = skullScore + "/4";
+        if (skullScore == 4 && ended == false)
+        {
+            GameObject endgame = Instantiate(PopupPrefab, new Vector3(Screen.width / 2, Screen.height / 2, 0), new Quaternion(0, 0, 0, 0));
+            endgame.transform.SetParent(canvas.transform, false);
+            ended = true;
+        }
     }
 }
