@@ -54,7 +54,7 @@ public class scr_pickup : MonoBehaviour
                 this.transform.position = end_loc.transform.position;
                 GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
                 this.transform.rotation = end_loc.transform.rotation;
-                done = true;
+                
                 if( scored == false)
                 {
                     scoreUp();
@@ -86,7 +86,10 @@ public class scr_pickup : MonoBehaviour
         GetComponent<Rigidbody>().freezeRotation = false;
         pickedUp = false;
         player.GetComponent<scr_player_movement>().carrying = false;
+    }
 
+    void OnCollisionEnter (Collision col)
+    {
         FMODUnity.RuntimeManager.PlayOneShot ("event:/SFX/SkullPutdown", GetComponent<Transform> ().position);
     }
 
@@ -94,5 +97,7 @@ public class scr_pickup : MonoBehaviour
     {
         player.GetComponent<scr_player_movement>().skullScore++;
         scored = true;
+        done = true;
+        FMODUnity.RuntimeManager.PlayOneShot ("event:/SFX/SkullPutdownCorrect", GetComponent<Transform> ().position);
     }
 }

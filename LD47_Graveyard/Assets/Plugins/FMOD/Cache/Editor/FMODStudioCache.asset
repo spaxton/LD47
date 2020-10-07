@@ -15,15 +15,15 @@ MonoBehaviour:
   Path: event:/Music/Music
   guid: ecf97b702fe0234985b68f0ffc2537b4
   Banks:
-  - {fileID: -7787713455932722131}
+  - {fileID: -4437383108405681069}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -4573154352825409019}
-  - {fileID: 1454931536819751351}
-  - {fileID: 8897688824725903069}
-  - {fileID: 3287653071199948433}
+  - {fileID: -1640668132157666732}
+  - {fileID: 7981795790847051809}
+  - {fileID: -3071821170371116707}
+  - {fileID: 890411283333767532}
   MinDistance: 0
   MaxDistance: 0
   Length: 37714
@@ -43,6 +43,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-8923277877462913501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: LD47_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637376055190000000
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-8866359232315087592
 MonoBehaviour:
@@ -91,6 +109,23 @@ MonoBehaviour:
   m_Name: parameter:/Music/Garden
   m_EditorClassIdentifier: 
   Name: Garden
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-8613865367353518114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Mausoleum
+  m_EditorClassIdentifier: 
+  Name: Mausoleum
   Min: 0
   Max: 1
   Default: 0
@@ -284,7 +319,7 @@ MonoBehaviour:
   lastModified: 637376001250000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-7685603554064327742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,6 +336,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-7345449310983104282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: LD47_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637376055630000000
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-7313953675011218591
 MonoBehaviour:
@@ -371,6 +424,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &-6943796913347716246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GhostFloat/Floating
+  m_EditorClassIdentifier: 
+  Name: Floating
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-6912368798703746713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -403,13 +473,13 @@ MonoBehaviour:
   Path: event:/SFX/SkullPutdownCorrect
   guid: 2ab8d82445e2a54b958b9aa7eec486e7
   Banks:
-  - {fileID: -7787713455932722131}
+  - {fileID: -4437383108405681069}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 35
   Length: 2812
 --- !u!114 &-6832443593811333083
 MonoBehaviour:
@@ -636,6 +706,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-5818999168660281114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Necropolis
+  m_EditorClassIdentifier: 
+  Name: Necropolis
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-5695356660813580892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -723,6 +810,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-5434316447781751689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Starting
+  m_EditorClassIdentifier: 
+  Name: Starting
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &-5383108894375450799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -757,6 +861,41 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &-5090708241140268886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: LD47_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637376053580000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5059245445298132791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Garden
+  m_EditorClassIdentifier: 
+  Name: Garden
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-5049140924638081410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -787,6 +926,40 @@ MonoBehaviour:
   m_Name: parameter:/Music/Mausoleum
   m_EditorClassIdentifier: 
   Name: Mausoleum
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-4972486358482313328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Mausoleum
+  m_EditorClassIdentifier: 
+  Name: Mausoleum
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-4955023239042548653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Necropolis
+  m_EditorClassIdentifier: 
+  Name: Necropolis
   Min: 0
   Max: 1
   Default: 0
@@ -894,7 +1067,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
-  Exists: 1
+  Exists: 0
 --- !u!114 &-4571938815767213662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -908,6 +1081,23 @@ MonoBehaviour:
   m_Name: parameter:/GhostFloat/Floating
   m_EditorClassIdentifier: 
   Name: Floating
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-4537358728963515847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Mausoleum
+  m_EditorClassIdentifier: 
+  Name: Mausoleum
   Min: 0
   Max: 1
   Default: 0
@@ -946,6 +1136,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-4437383108405681069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: LD47_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637376057050000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4327057860513738308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Necropolis
+  m_EditorClassIdentifier: 
+  Name: Necropolis
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-4093106002769777305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -978,13 +1203,13 @@ MonoBehaviour:
   Path: event:/SFX/SkullPutdown
   guid: dbe1faaf7c40414c94461d67dace2704
   Banks:
-  - {fileID: -7787713455932722131}
+  - {fileID: -4437383108405681069}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 10000
+  MaxDistance: 25
   Length: 250
 --- !u!114 &-3921757317773615585
 MonoBehaviour:
@@ -1003,6 +1228,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-3748287353047240418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: LD47_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637376053900000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-3686589762556667556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1020,6 +1263,23 @@ MonoBehaviour:
   lastModified: 637375838680000000
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-3620588548102902965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Garden
+  m_EditorClassIdentifier: 
+  Name: Garden
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &-3489070653116586117
 MonoBehaviour:
@@ -1107,6 +1367,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-3390200977886017650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Starting
+  m_EditorClassIdentifier: 
+  Name: Starting
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &-3345170923082872263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1124,6 +1401,40 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &-3186236940071695219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Garden
+  m_EditorClassIdentifier: 
+  Name: Garden
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-3071821170371116707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Mausoleum
+  m_EditorClassIdentifier: 
+  Name: Mausoleum
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-2892087384667390849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1180,6 +1491,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-2397827292133090146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GhostFloat/Floating
+  m_EditorClassIdentifier: 
+  Name: Floating
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-2360205719632686214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1214,6 +1542,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-2045036635189874197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Garden
+  m_EditorClassIdentifier: 
+  Name: Garden
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-2039456368246625276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1231,6 +1576,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-1941097313653195388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Starting
+  m_EditorClassIdentifier: 
+  Name: Starting
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &-1835507884241438898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1246,15 +1608,49 @@ MonoBehaviour:
   Path: event:/SFX/GhostFloat
   guid: 29a0eceb3f314143aa01d2af00097a96
   Banks:
-  - {fileID: -7787713455932722131}
+  - {fileID: -4437383108405681069}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 8083657962431807177}
+  - {fileID: 511409319518846541}
   MinDistance: 1
   MaxDistance: 10000
   Length: 5177
+--- !u!114 &-1789483497420941639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GhostFloat/Floating
+  m_EditorClassIdentifier: 
+  Name: Floating
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1686904599120903895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Starting
+  m_EditorClassIdentifier: 
+  Name: Starting
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &-1667662662774819673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1272,6 +1668,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-1640668132157666732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Starting
+  m_EditorClassIdentifier: 
+  Name: Starting
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
 --- !u!114 &-1601490553181078526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1303,6 +1716,23 @@ MonoBehaviour:
   m_Name: parameter:/Music/Garden
   m_EditorClassIdentifier: 
   Name: Garden
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1456229589091525934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Necropolis
+  m_EditorClassIdentifier: 
+  Name: Necropolis
   Min: 0
   Max: 1
   Default: 0
@@ -1340,6 +1770,23 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &-398982446428735969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Mausoleum
+  m_EditorClassIdentifier: 
+  Name: Mausoleum
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &-290361923764538457
 MonoBehaviour:
@@ -1423,7 +1870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 4886587673212192912}
-  - {fileID: -7787713455932722131}
+  - {fileID: -4437383108405681069}
   EditorEvents:
   - {fileID: -9012290745066023649}
   - {fileID: 3897102037109317426}
@@ -1433,11 +1880,28 @@ MonoBehaviour:
   - {fileID: -4037542215858360176}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -7787713455932722131}
+  - {fileID: -4437383108405681069}
   StringsBanks:
   - {fileID: 4886587673212192912}
-  stringsBankWriteTime: 637376001250000000
+  stringsBankWriteTime: 637376057050000000
   cacheVersion: 3
+--- !u!114 &49914384385327143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Starting
+  m_EditorClassIdentifier: 
+  Name: Starting
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &261826140040619737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1473,6 +1937,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &511409319518846541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GhostFloat/Floating
+  m_EditorClassIdentifier: 
+  Name: Floating
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &680421533245299592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1542,6 +2023,40 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &854380489055376959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Mausoleum
+  m_EditorClassIdentifier: 
+  Name: Mausoleum
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &890411283333767532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Necropolis
+  m_EditorClassIdentifier: 
+  Name: Necropolis
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &984680696709454853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1573,6 +2088,23 @@ MonoBehaviour:
   m_Name: parameter:/GhostFloat/Floating
   m_EditorClassIdentifier: 
   Name: Floating
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1178086536134951094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Garden
+  m_EditorClassIdentifier: 
+  Name: Garden
   Min: 0
   Max: 1
   Default: 0
@@ -1612,6 +2144,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &1348114875841971802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Starting
+  m_EditorClassIdentifier: 
+  Name: Starting
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &1377261526237669439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1645,7 +2194,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &1485055044182780614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1867,6 +2416,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &2172309702941520791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GhostFloat/Floating
+  m_EditorClassIdentifier: 
+  Name: Floating
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &2212967269352285824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1882,7 +2448,7 @@ MonoBehaviour:
   Path: event:/SFX/GhostJump
   guid: 6a9242f392b14446b473e1e4ac4f41a1
   Banks:
-  - {fileID: -7787713455932722131}
+  - {fileID: -4437383108405681069}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1890,6 +2456,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 10000
   Length: 1479
+--- !u!114 &2391547744090027976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Starting
+  m_EditorClassIdentifier: 
+  Name: Starting
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &2418740614438058453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1924,6 +2507,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &2549806516799425765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Necropolis
+  m_EditorClassIdentifier: 
+  Name: Necropolis
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &2626748139216011787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1937,6 +2537,23 @@ MonoBehaviour:
   m_Name: parameter:/GhostFloat/Floating
   m_EditorClassIdentifier: 
   Name: Floating
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &2636302291493432232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Mausoleum
+  m_EditorClassIdentifier: 
+  Name: Mausoleum
   Min: 0
   Max: 1
   Default: 0
@@ -1980,6 +2597,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &2858865117545340610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GhostFloat/Floating
+  m_EditorClassIdentifier: 
+  Name: Floating
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &2899989672080725662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2012,6 +2646,24 @@ MonoBehaviour:
   Path: LD47_FMOD/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637375872240000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2982173542494961955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: LD47_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637376053110000000
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -2048,7 +2700,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &3324461791462852188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2135,6 +2787,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &3692755894292675665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Garden
+  m_EditorClassIdentifier: 
+  Name: Garden
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3703979029844216313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: LD47_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637376054260000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &3714088584963025012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2202,7 +2889,7 @@ MonoBehaviour:
   Path: event:/SFX/SkullPickup
   guid: 17f13adce203794783ba3ad177c976b0
   Banks:
-  - {fileID: -7787713455932722131}
+  - {fileID: -4437383108405681069}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2211,6 +2898,23 @@ MonoBehaviour:
   MaxDistance: 10000
   Length: 443
 --- !u!114 &3955819390415058461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Necropolis
+  m_EditorClassIdentifier: 
+  Name: Necropolis
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3987184700820830970
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2240,6 +2944,40 @@ MonoBehaviour:
   m_Name: parameter:/Music/Mausoleum
   m_EditorClassIdentifier: 
   Name: Mausoleum
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &4170810185667308419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Necropolis
+  m_EditorClassIdentifier: 
+  Name: Necropolis
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &4292303211784750168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GhostFloat/Floating
+  m_EditorClassIdentifier: 
+  Name: Floating
   Min: 0
   Max: 1
   Default: 0
@@ -2351,6 +3089,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1479
+--- !u!114 &4764933250972256694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: LD47_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637376042300000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &4886587673212192912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2365,13 +3121,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: LD47_FMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637376001250000000
+  lastModified: 637376057050000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
     Value: 1212
   Exists: 1
 --- !u!114 &4890861110579825607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Mausoleum
+  m_EditorClassIdentifier: 
+  Name: Mausoleum
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5090111247784504523
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2514,6 +3287,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5177
+--- !u!114 &5865787491088634363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GhostFloat/Floating
+  m_EditorClassIdentifier: 
+  Name: Floating
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &6056664328177094841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2527,6 +3317,23 @@ MonoBehaviour:
   m_Name: parameter:/GhostFloat/Floating
   m_EditorClassIdentifier: 
   Name: Floating
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6131439810011611911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Mausoleum
+  m_EditorClassIdentifier: 
+  Name: Mausoleum
   Min: 0
   Max: 1
   Default: 0
@@ -2598,6 +3405,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &6634051073866269204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: LD47_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637376054520000000
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &6849394045866079016
 MonoBehaviour:
@@ -2736,6 +3561,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &7396901790208740090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Garden
+  m_EditorClassIdentifier: 
+  Name: Garden
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &7485089191248319805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2766,6 +3608,23 @@ MonoBehaviour:
   m_Name: parameter:/Music/Necropolis
   m_EditorClassIdentifier: 
   Name: Necropolis
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &7733251814954822529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Garden
+  m_EditorClassIdentifier: 
+  Name: Garden
   Min: 0
   Max: 1
   Default: 0
@@ -2804,6 +3663,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &7981795790847051809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Garden
+  m_EditorClassIdentifier: 
+  Name: Garden
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &7990373751742614981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2837,7 +3713,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &8173046784310104036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2941,6 +3817,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &8792259755048637558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Starting
+  m_EditorClassIdentifier: 
+  Name: Starting
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &8809254166830310081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2975,7 +3868,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &8931387843226467984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3050,6 +3943,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &9078590464466117049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Necropolis
+  m_EditorClassIdentifier: 
+  Name: Necropolis
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &9133986626985234815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3080,6 +3990,23 @@ MonoBehaviour:
   m_Name: parameter:/Music/Mausoleum
   m_EditorClassIdentifier: 
   Name: Mausoleum
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &9203338231132298388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GhostFloat/Floating
+  m_EditorClassIdentifier: 
+  Name: Floating
   Min: 0
   Max: 1
   Default: 0

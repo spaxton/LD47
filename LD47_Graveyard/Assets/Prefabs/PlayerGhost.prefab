@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 1197479216065381440}
   - component: {fileID: 1197479216065381470}
   - component: {fileID: 1197479216065381471}
+  - component: {fileID: -8529115866719057854}
   m_Layer: 0
   m_Name: PlayerGhost
   m_TagString: Player
@@ -100,12 +101,42 @@ MonoBehaviour:
   walkSpeed: 10
   gravity: -19.62
   jumpHeight: 3
+  doubleJumpHeight: 2
   turnSmoothing: 0.1
   groundCheck: {fileID: 1197479215608334522}
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
     m_Bits: 1024
+  carrying: 0
+  ghostModel: {fileID: 0}
+  skullScore: 0
+  canvas: {fileID: 0}
+  skullUI: {fileID: 0}
+  PopupPrefab: {fileID: 0}
+--- !u!114 &-8529115866719057854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197479216065381441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/GhostFloat
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 10000
 --- !u!1 &1197479217258595436
 GameObject:
   m_ObjectHideFlags: 0
