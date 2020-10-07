@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: a89fc765f2e190f4ab948ddb6f2a3ae9
+  - enabled: 1
     path: Assets/Scenes/CemeteryLevel.unity
     guid: d48e707c90c4ff74c95fbaab53642895
   m_configObjects: {}
