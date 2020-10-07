@@ -20,10 +20,13 @@ public class scr_putdown : MonoBehaviour
         if (mySkull.GetComponent<scr_pickup>().pickedUp)
         {
             sphere.GetComponent<MeshRenderer>().enabled = true;
+
+            
         } else
         {
             sphere.GetComponent<MeshRenderer>().enabled = false;
 
+           //Where??? FMODUnity.RuntimeManager.PlayOneShotAttached ("event:/SFX/SkullPutdownCorrect", this.sphere);
         }
     }
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{3a4e92ba-37ab-41c8-9783-7c2a4a285c65}">
+		<property name="assetPath">
+			<value>Ghost_Jump.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.4790022675736962</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ef861808-cfa8-4a6a-a6d3-a4d70217a4b7}</destination>
+		</relationship>
+	</object>
+</objects>

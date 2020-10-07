@@ -34,11 +34,17 @@ public class scr_player_movement : MonoBehaviour
     bool onGround;
     bool doubleJumped = false;
 
+    FMOD.Studio.EventInstance GhostFloat;
+
     // Start is called before the first frame update
     void Start()
     {
         GameObject pop = Instantiate(PopupPrefab, new Vector3(Screen.width / 2, Screen.height / 2, 0), new Quaternion(0, 0, 0, 0));
         pop.transform.SetParent(canvas.transform, false);
+
+        GhostFloat = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/GhostFloat");
+        GhostFloat.start();
+        GhostFloat.release();
     }
 
     // Update is called once per frame
@@ -73,10 +79,11 @@ public class scr_player_movement : MonoBehaviour
             Vector3 moveDir = Quaternion.Euler(0f, tarAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * walkSpeed * Time.deltaTime);
 
-            // Put floating sound here!
-        } else
+            GhostFloat.setParameterByName("Floating", 1f);
+        } 
+        else
         {
-            // put standing (not moving) sound here!
+            GhostFloat.setParameterByName("Floating", 0f);
         }
 
         // regular jumps
@@ -84,7 +91,7 @@ public class scr_player_movement : MonoBehaviour
         {
             vel.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
 
-            // put regular jump sound here!
+            FMODUnity.RuntimeManager.PlayOneShotAttached ("event:/SFX/GhostJump", this.ghostModel);
         }
 
         // double jumps
@@ -94,7 +101,7 @@ public class scr_player_movement : MonoBehaviour
             ghostModel.GetComponent<scr_animController>().doubleJump = true;
             doubleJumped = true;
 
-            // put double jump sound here!
+            FMODUnity.RuntimeManager.PlayOneShotAttached ("event:/SFX/GhostJump", this.ghostModel);
         }
 
         // under pressure (gravitational pressure, that is)
@@ -122,4 +129,5 @@ public class scr_player_movement : MonoBehaviour
             ended = true;
         }
     }
+   
 }

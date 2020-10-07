@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{ec6b72d4-c56f-4e92-b4f2-83aba96ac66a}">
+		<property name="name">
+			<value>Mausoleum</value>
+		</property>
+		<relationship name="folder">
+			<destination>{42f24aab-39e2-4e66-8f47-6515f9137a90}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{51733590-1e8e-4ab1-ba2b-00839c81f90e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{51733590-1e8e-4ab1-ba2b-00839c81f90e}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.5700000524520874</value>
+		</property>
+	</object>
+</objects>

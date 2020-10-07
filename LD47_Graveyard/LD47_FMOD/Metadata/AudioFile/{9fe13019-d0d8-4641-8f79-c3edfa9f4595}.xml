@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{9fe13019-d0d8-4641-8f79-c3edfa9f4595}">
+		<property name="assetPath">
+			<value>LD47__MX_Harpsichord.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>41.520204081632656</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ef861808-cfa8-4a6a-a6d3-a4d70217a4b7}</destination>
+		</relationship>
+	</object>
+</objects>

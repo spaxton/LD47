@@ -75,7 +75,7 @@ public class scr_pickup : MonoBehaviour
         pickedUp = true;
         player.GetComponent<scr_player_movement>().carrying = true;
 
-        // put pickup sound here!
+        FMODUnity.RuntimeManager.PlayOneShotAttached ("event:/SFX/SkullPickup", this.player);
     }
 
     void drop()
@@ -87,7 +87,7 @@ public class scr_pickup : MonoBehaviour
         pickedUp = false;
         player.GetComponent<scr_player_movement>().carrying = false;
 
-        // put dropoff sound here!
+        FMODUnity.RuntimeManager.PlayOneShot ("event:/SFX/SkullPutdown", GetComponent<Transform> ().position);
     }
 
     void scoreUp()

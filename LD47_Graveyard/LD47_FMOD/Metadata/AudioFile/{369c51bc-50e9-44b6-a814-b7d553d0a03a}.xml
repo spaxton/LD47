@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{369c51bc-50e9-44b6-a814-b7d553d0a03a}">
+		<property name="assetPath">
+			<value>Skull_Putdown_Correct.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.8124943310657597</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ef861808-cfa8-4a6a-a6d3-a4d70217a4b7}</destination>
+		</relationship>
+	</object>
+</objects>
