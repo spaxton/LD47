@@ -19524,6 +19524,7 @@ GameObject:
   - component: {fileID: 856098065}
   - component: {fileID: 856098066}
   - component: {fileID: 856098062}
+  - component: {fileID: 856098067}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -19606,7 +19607,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856098061}
-  m_LocalRotation: {x: 0.09973808, y: 0.0012994129, z: -0.00013025051, w: 0.99501294}
+  m_LocalRotation: {x: 0.09973808, y: 0.0012994818, z: -0.00013025742, w: 0.99501294}
   m_LocalPosition: {x: 17.97249, y: 3.8330388, z: 4.7076573}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -19659,6 +19660,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ListenerNumber: -1
+--- !u!114 &856098067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856098061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Music/MusicLofi
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: Skulls
+    Value: 0
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &857443382 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0f7b60283ec9cf240af6d8413d1bf475,
@@ -37558,12 +37584,12 @@ PrefabInstance:
     - target: {fileID: 1923964496435676001, guid: afc82e2bd8462334897a119690d0307c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0012993821
+      value: 0.0012994173
       objectReference: {fileID: 0}
     - target: {fileID: 1923964496435676001, guid: afc82e2bd8462334897a119690d0307c,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00013072306
+      value: -0.0001307266
       objectReference: {fileID: 0}
     - target: {fileID: 1923964496435676001, guid: afc82e2bd8462334897a119690d0307c,
         type: 3}
@@ -37583,12 +37609,12 @@ PrefabInstance:
     - target: {fileID: 1923964497089161829, guid: afc82e2bd8462334897a119690d0307c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0013015625
+      value: 0.0013015539
       objectReference: {fileID: 0}
     - target: {fileID: 1923964497089161829, guid: afc82e2bd8462334897a119690d0307c,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000107139385
+      value: -0.00010713868
       objectReference: {fileID: 0}
     - target: {fileID: 1923964497089161829, guid: afc82e2bd8462334897a119690d0307c,
         type: 3}

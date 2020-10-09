@@ -35,7 +35,7 @@ public class scr_player_movement : MonoBehaviour
     bool doubleJumped = false;
 
     FMOD.Studio.EventInstance GhostFloat;
-
+    FMOD.Studio.EventInstance MusicLofi;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +45,10 @@ public class scr_player_movement : MonoBehaviour
         GhostFloat = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/GhostFloat");
         GhostFloat.start();
         GhostFloat.release();
+
+        MusicLofi = FMODUnity.RuntimeManager.CreateInstance("event:/Music/MusicLofi");
+        MusicLofi.start();
+        MusicLofi.release();
     }
 
     // Update is called once per frame
@@ -122,12 +126,17 @@ public class scr_player_movement : MonoBehaviour
     void updateUI()
     {
         skullUI.text = skullScore + "/4";
+        MusicLofi.setParameterByName("Skulls", skullScore);
         if (skullScore == 4 && ended == false)
         {
             GameObject endgame = Instantiate(PopupPrefab, new Vector3(Screen.width / 2, Screen.height / 2, 0), new Quaternion(0, 0, 0, 0));
             endgame.transform.SetParent(canvas.transform, false);
             ended = true;
         }
+    }
+    void OnDestroy()
+    {
+        MusicLofi.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
     }
    
 }

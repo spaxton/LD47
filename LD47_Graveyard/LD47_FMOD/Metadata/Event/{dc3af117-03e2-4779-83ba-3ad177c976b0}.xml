@@ -98,7 +98,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{574f15d0-0f81-4f2e-b256-6b7d88ac7f15}">
 		<property name="volume">
-			<value>3</value>
+			<value>1.5</value>
 		</property>
 		<property name="name">
 			<value>Skull Pickup</value>
@@ -130,7 +130,7 @@
 	<object class="MixerBusFader" id="{646a081d-ddb8-4897-a837-5bac315ab714}" />
 	<object class="SpatialiserEffect" id="{af4775ae-4dc0-449d-84be-78a9968033c4}">
 		<property name="maximumDistance">
-			<value>10000</value>
+			<value>30</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{3624b945-51d7-4e75-86c3-3041186d8554}" />
