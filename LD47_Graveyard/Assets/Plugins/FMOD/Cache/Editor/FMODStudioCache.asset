@@ -15,15 +15,16 @@ MonoBehaviour:
   Path: event:/Music/Music
   guid: ecf97b702fe0234985b68f0ffc2537b4
   Banks:
-  - {fileID: -4437383108405681069}
+  - {fileID: 7824038259006868570}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -1640668132157666732}
-  - {fileID: 7981795790847051809}
-  - {fileID: -3071821170371116707}
-  - {fileID: 890411283333767532}
+  - {fileID: -2860065085059927316}
+  - {fileID: -6879124815860378724}
+  - {fileID: 5577927479290911424}
+  - {fileID: 7505191456161041612}
+  - {fileID: -1580660175312604935}
   MinDistance: 0
   MaxDistance: 0
   Length: 37714
@@ -458,6 +459,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-6879124815860378724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Garden
+  m_EditorClassIdentifier: 
+  Name: Garden
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-6848173480203320629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -473,7 +491,7 @@ MonoBehaviour:
   Path: event:/SFX/SkullPutdownCorrect
   guid: 2ab8d82445e2a54b958b9aa7eec486e7
   Banks:
-  - {fileID: -4437383108405681069}
+  - {fileID: 7824038259006868570}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -810,6 +828,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-5435912816234063102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GhostFloat/Floating
+  m_EditorClassIdentifier: 
+  Name: Floating
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-5434316447781751689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1153,7 +1188,7 @@ MonoBehaviour:
   lastModified: 637376057050000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-4327057860513738308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1203,7 +1238,7 @@ MonoBehaviour:
   Path: event:/SFX/SkullPutdown
   guid: dbe1faaf7c40414c94461d67dace2704
   Banks:
-  - {fileID: -4437383108405681069}
+  - {fileID: 7824038259006868570}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1434,7 +1469,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-2892087384667390849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1452,6 +1487,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &-2860065085059927316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Starting
+  m_EditorClassIdentifier: 
+  Name: Starting
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
 --- !u!114 &-2650430336023027703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1608,12 +1660,12 @@ MonoBehaviour:
   Path: event:/SFX/GhostFloat
   guid: 29a0eceb3f314143aa01d2af00097a96
   Banks:
-  - {fileID: -4437383108405681069}
+  - {fileID: 7824038259006868570}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 511409319518846541}
+  - {fileID: -5435912816234063102}
   MinDistance: 1
   MaxDistance: 10000
   Length: 5177
@@ -1684,7 +1736,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
-  Exists: 1
+  Exists: 0
 --- !u!114 &-1601490553181078526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1703,6 +1755,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-1580660175312604935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Necropolis
+  m_EditorClassIdentifier: 
+  Name: Necropolis
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-1568164198727437983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1870,7 +1939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 4886587673212192912}
-  - {fileID: -4437383108405681069}
+  - {fileID: 7824038259006868570}
   EditorEvents:
   - {fileID: -9012290745066023649}
   - {fileID: 3897102037109317426}
@@ -1880,10 +1949,10 @@ MonoBehaviour:
   - {fileID: -4037542215858360176}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -4437383108405681069}
+  - {fileID: 7824038259006868570}
   StringsBanks:
   - {fileID: 4886587673212192912}
-  stringsBankWriteTime: 637376057050000000
+  stringsBankWriteTime: 637377730440000000
   cacheVersion: 3
 --- !u!114 &49914384385327143
 MonoBehaviour:
@@ -1953,7 +2022,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &680421533245299592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2056,7 +2125,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &984680696709454853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2448,7 +2517,7 @@ MonoBehaviour:
   Path: event:/SFX/GhostJump
   guid: 6a9242f392b14446b473e1e4ac4f41a1
   Banks:
-  - {fileID: -4437383108405681069}
+  - {fileID: 7824038259006868570}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2889,7 +2958,7 @@ MonoBehaviour:
   Path: event:/SFX/SkullPickup
   guid: 17f13adce203794783ba3ad177c976b0
   Banks:
-  - {fileID: -4437383108405681069}
+  - {fileID: 7824038259006868570}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3121,11 +3190,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: LD47_FMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637376057050000000
+  lastModified: 637377730440000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1212
+    Value: 1260
   Exists: 1
 --- !u!114 &4890861110579825607
 MonoBehaviour:
@@ -3212,6 +3281,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &5577927479290911424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Mausoleum
+  m_EditorClassIdentifier: 
+  Name: Mausoleum
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &5621407445646557613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3595,6 +3681,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &7505191456161041612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Skulls
+  m_EditorClassIdentifier: 
+  Name: Skulls
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &7532528516246252229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3629,6 +3732,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &7824038259006868570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: LD47_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637377730440000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &7845373277982853206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3679,7 +3800,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &7990373751742614981
 MonoBehaviour:
   m_ObjectHideFlags: 0
